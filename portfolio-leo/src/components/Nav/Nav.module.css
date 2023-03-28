@@ -1,0 +1,9 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav > div{
+    margin-right: 20px;
+}
