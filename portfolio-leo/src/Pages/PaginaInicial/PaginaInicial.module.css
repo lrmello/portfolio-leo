@@ -15,10 +15,6 @@
     z-index: 1;
 }
 
-.imagemPerfil{
-    margin-bottom: 50px;
-}
-
 .textoContainer{
     border:1px solid;
     display: flex;

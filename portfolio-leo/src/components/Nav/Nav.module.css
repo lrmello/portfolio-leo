@@ -1,9 +1,38 @@
 .Nav{
-    display: flex;
+    display: inline-block;
     align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
-.Nav > div{
-    margin-right: 20px;
+.containerNav{
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+
+.links{
+    display: inline-block;
+    align-items: center;
+    font-size: 14px;
+    padding:3px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.linkNav{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.links:visited{
+    color: rgb(209, 192, 192);
+}
+
+.links:hover{
+    color:black;
 }
