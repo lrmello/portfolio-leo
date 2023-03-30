@@ -22,9 +22,18 @@ export default function PaginaInicial() {
               </h2>
             </span>
           </div>
+
+          <div className={styles.textoEu}>
+              <p>Sou o Leonardo Reis, Mais conhecido como Léo,
+                estou sempre curioso e apaixanado por tecnologia e quero emergir cada vez mais por esse mundão 
+              </p>
+
+              <p>Atualmente estou trabalhando com desenvolvimento de software, aplicando melhorias e fazendo a magia acontecer </p>
+          </div>
+
         </div>
       </div>
-      <Footer />
+      <Footer className={styles.footer} />
     </>
   );
 }

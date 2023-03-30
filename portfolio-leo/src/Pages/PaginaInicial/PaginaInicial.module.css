@@ -3,10 +3,9 @@
     align-items: center;
     justify-content: center;
 
-    border-radius: 50%;
-    border: 1px solid white;
+    border-radius: 150px;
     width: 600px;
-    height: 250px;
+    height: 270px;
 
     position: absolute;
     top: 50%;
@@ -16,9 +15,23 @@
 }
 
 .textoContainer{
-    border:1px solid;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 500px;
+}
+
+.textoEu{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 320px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

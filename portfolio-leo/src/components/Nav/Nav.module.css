@@ -36,3 +36,8 @@
 .links:hover{
     color:black;
 }
+
+.active{
+    color: black;
+    font-weight: bold;
+}
