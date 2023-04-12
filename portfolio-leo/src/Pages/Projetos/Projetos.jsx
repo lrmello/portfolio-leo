@@ -48,7 +48,19 @@ export default function Projetos() {
       </section>
 
       <section className={styles.projetosAndamento}>
+        <div className={styles.projetoContainer}>
         <h1>Projetos em andamento</h1>
+        <div className={styles.containerMini}>
+            <img src={IconProjeto} alt="" className={styles.img} />
+            <a
+              href="https://github.com/lrmello/projetoModuloUmResilia"
+              className={styles.links}
+              target="_blank"
+            >
+              Projeto MySQL
+            </a>
+          </div>
+          </div>
       </section>
       <Footer />
     </div>
