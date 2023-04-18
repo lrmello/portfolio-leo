@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    text-align: ce;
+    text-align: center;
     border: 1px solid;
 }
 
@@ -24,22 +24,43 @@
     width: 300px;
     margin: 10px;
 }
-
-.containerMini{
-    margin: 10px;
-    border: 1px solid wheat;
-    padding: 10px;
-    max-width: 200px;
-    width: 100%;
-    text-align: center;
-}
-
 .img{
     width: 30px;
     height: 30px;
     display: inline;
     margin-bottom: -10px;
 }
+
+.containerMiniFeitos{
+    margin: 15px;
+    border: 1px solid wheat;
+    padding: 15px;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerMiniAndamento{
+    border: 1px solid white;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.listLink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 
 .links{
     font-size: 18px;
@@ -49,6 +70,8 @@
     border: 1px solid;
     margin: 5px;
     padding: 5px;
+    width: 100%;
+    flex:1;
 }
 
 .links:hover{

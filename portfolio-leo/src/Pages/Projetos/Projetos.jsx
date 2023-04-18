@@ -12,7 +12,7 @@ export default function Projetos() {
         <div className={styles.projetoContainer}>
           <h1>Projetos Finalizados</h1>
 
-          <div className={styles.containerMini}>
+          <div className={styles.containerMiniFeitos}>
             <img src={IconProjeto} alt="" className={styles.img} />
             <a
               href="https://github.com/lrmello/projetoModuloUmResilia"
@@ -23,7 +23,7 @@ export default function Projetos() {
             </a>
           </div>
 
-          <div className={styles.containerMini}>
+          <div className={styles.containerMiniFeitos}>
             <img src={IconProjeto} alt="" className={styles.img} />
             <a
               href="https://github.com/lrmello/projeto-individual-M2"
@@ -34,7 +34,7 @@ export default function Projetos() {
             </a>
           </div>
 
-          <div className={styles.containerMini}>
+          <div className={styles.containerMiniFeitos}>
             <img src={IconProjeto} alt="" className={styles.img} />
             <a
               href="https://github.com/lrmello/projetoModuloUmResilia"
@@ -49,16 +49,27 @@ export default function Projetos() {
 
       <section className={styles.projetosAndamento}>
         <div className={styles.projetoContainer}>
-        <h1>Projetos em andamento</h1>
-        <div className={styles.containerMini}>
+        <h2>Projetos em andamento</h2>
+        <div className={styles.containerMiniAndamento}>
             <img src={IconProjeto} alt="" className={styles.img} />
+              <div className={styles.listLink}>
             <a
-              href="https://github.com/lrmello/projetoModuloUmResilia"
+              href="https://github.com/thalitamaysa/Projeto_em_grupo-M4"
               className={styles.links}
               target="_blank"
             >
-              Projeto MySQL
+              Valdisnei
             </a>
+
+            <img src={IconProjeto} alt="" className={styles.img} />
+            <a
+              href="https://github.com/thalitamaysa/Projeto_em_grupo-M4"
+              className={styles.links}
+              target="_blank"
+            >
+              Valdisnei
+            </a>  
+            </div>
           </div>
           </div>
       </section>
